@@ -1,0 +1,29 @@
+/*fuentes*/
+/*fuentes*/
+
+@import url('../fonts/Gotham-Black.otf');
+@import url('../fonts/Gotham-Bold.otf');
+@import url('../fonts/Gotham-BookItalic.otf');
+@import url('../fonts/Gotham-Light.otf');
+@import url('../fonts/Gotham-Thin.otf');
+@import url('../fonts/Gotham-ThinItalic.otf');
+@import url('../fonts/Gotham-UltraItalic.otf');
+@import url('../fonts/Gotham-XLight.otf');
+@import url('../fonts/Gotham-XLightItalic.otf');
+@import url('../fonts/GothamBold.ttf');
+@import url('../fonts/GothamBoldItalic.ttf');
+@import url('../fonts/GothamBook.ttf');
+@import url('../fonts/GothamBookItalic.ttf');
+@import url('../fonts/GothamLight.ttf');
+@import url('../fonts/GothamLightItalic.ttf');
+@import url('../fonts/GothamMedium.ttf');
+@import url('../fonts/GothamMedium_1.ttf');
+@import url('../fonts/GothamMediumItalic.ttf');
+
+
+@font-face{
+    font-family: 'Gotham Book';
+    src: url("../fonts/GothamBook.ttf");
+    font-weight: 500;
+    font-style: normal;
+}

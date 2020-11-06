@@ -1,1 +1,1 @@
-alert("wena conchetumare");
+//alert("wena conchetumare");
