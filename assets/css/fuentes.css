@@ -27,3 +27,22 @@
     font-weight: 500;
     font-style: normal;
 }
+
+@font-face{
+    font-family: 'Gotham Light';
+    src: url("../fonts/GothamLight.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Gotham Bold';
+    src: url("../fonts/GothamBold.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+body{
+    font-family: 'Gotham Book', sans-serif;
+}
