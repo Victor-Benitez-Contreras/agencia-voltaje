@@ -114,9 +114,10 @@ header{
 }
 
 .titulo-servicio{
-    font-size: 24px;
+    font-size: 21px;
     font-family: 'Gotham Bold';
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 
