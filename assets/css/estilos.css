@@ -21,6 +21,15 @@ body {
 
 /* seccion de header */
 
+header{
+    width: 100%;
+    height: auto;
+    background-image: url("../imagenes/");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: center;
+}
 
 /* seccion ¿que es voltaje? */
 #que-es-voltaje{
@@ -31,6 +40,7 @@ body {
     background-size: cover;
     background-position-y: top;
     background-position-x: center;
+    margin-top: -200px;
 }
 
 .contenedor-que-es-voltaje{
@@ -76,7 +86,38 @@ body {
 
 
 /* seccion lo que hacemos */
+#lo-que-hacemos{
+    width: 100%;
+    text-align:center;
+    margin-top: -20px;
+}
 
+.titulo-lo-que-hacemos{
+    font-family: 'Gotham Bold';
+    font-size: 36px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+.lo-que-hacemos-servicios{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.img-servicio{
+    width: 230px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.titulo-servicio{
+    font-size: 24px;
+    font-family: 'Gotham Bold';
+    text-transform: uppercase;
+}
 
 
 
@@ -93,9 +134,7 @@ body {
 }
 
 .contenedor-proceso{
-    width: 1340px;
-    text-align: center;
-    margin: auto;
+    margin-top: 100px;
 }
 
 .proceso-etapa-titulo{
@@ -111,6 +150,13 @@ body {
 }
 .proceso-etapa-contenedor{
     height: auto;
+}
+
+.proceso-titulo{
+    font-family: 'Gotham Bold';
+    font-size: 36px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
 }
 
 
@@ -132,6 +178,7 @@ body {
     font-weight: 800;
     letter-spacing: 5px;
     font-size: 36px;
+    font-family: 'Gotham Bold';
 }
 
 .conversemos{
