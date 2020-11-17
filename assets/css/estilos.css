@@ -10,6 +10,15 @@
     margin: auto;
 }
 
+.horizonte-procesos{
+    width: 120px;
+    height: 8px;
+    border-radius: 4px;
+    background: #e4333a;
+    display: block;
+    margin: auto;
+}
+
 
 /* Barra de navegación */
 
@@ -61,7 +70,7 @@ header{
     display: inline-block;
     font-size: 50px;
     width: 45%;
-    letter-spacing: 10px;
+    letter-spacing: 12px;
     text-align: left;
     line-height: 65px;
 }
@@ -103,6 +112,21 @@ header{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.contenedor-servicio{
+    box-shadow: 10px 10px 0px -5px transparent;
+    border-radius: 5px;
+    padding: 30px;
+    transition-property: box-shadow;
+    transition-duration: 0.7s;
+}
+
+.contenedor-servicio:hover {
+    box-shadow: 0px 0px 45px -7px #979797;
+    cursor: pointer;
 }
 
 .img-servicio{
@@ -114,17 +138,71 @@ header{
 }
 
 .titulo-servicio{
-    font-size: 21px;
+    font-size: 20.5px;
     font-family: 'Gotham Bold';
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    padding-top: 20px;
+
 }
 
 
 
 /* seccion portafolio */
 
+.portafolio-titulo{
+    font-family: 'Gotham Bold';
+    font-size: 36px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    padding-left: 12px;
+}
 
+.lista-portafolio{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin: 40px auto;
+
+}
+
+.lista-portafolio-item{
+    font-family: 'Gotham Book';
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 8px 23px;
+    font-size: 25px;
+    padding: 10px 0px 10px 3px;
+    letter-spacing: 5px;
+    transition-property: color, border-bottom;
+    transition-duration: 0.5s;
+    border-bottom: 4px solid transparent;
+}
+
+.lista-portafolio-item:hover{
+    color: #e4333a;
+    cursor: pointer;
+}
+
+
+.lista-portafolio-item:active{
+    color: #e4333a;
+    font-family: 'Gotham Bold';
+    border-bottom: 4px solid #e4333a;
+    box-sizing: border-box;
+}
+
+.contenedor-portafolio-img{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 25px;
+    margin: auto;  
+}
+
+.imagen-portafolio{
+    width: 100%;
+}
 
 
 /* seccion nuestro proceso */
@@ -136,15 +214,18 @@ header{
 }
 
 .contenedor-proceso{
-    margin-top: 100px;
+    margin-top: 150px;
 }
-
-
 
 
 .proceso-etapa-contenedor{
     height: auto;
     color: #fff;
+}
+
+.nuestro-proceso-explicado{
+    margin: 50px 0px;
+
 }
 
 .proceso-titulo{
@@ -154,6 +235,17 @@ header{
     text-transform: uppercase;
 }
 
+
+
+.proceso-parrafo{
+    font-size: 30px;
+    display: block;
+    margin: 70px auto 150px;
+    width: 70%;
+    line-height: 44px;
+    letter-spacing: 3px;
+
+}
 
 .proceso-etapas{
     width: 100%;
@@ -235,7 +327,7 @@ header{
 .conversemos{
     font-size: 28px;
     text-transform: uppercase;
-    padding: 16px 0px;
+    padding: 16px 0px 0xp;
     letter-spacing: 6px;
 
 }
@@ -244,20 +336,23 @@ header{
     text-align: center;
     width: 100%;
     height: auto;
-    margin: auto;
+    margin: 100px auto 50px;
 }
 
 .iconos-contacto i {
     margin: 35px;
+    margin-bottom: 35px;
     font-size: 100px;
     color: #fff;
-    transition-property: color;
+    transition-property: color, font-size, margin-bottom;
     transition-duration: 0.5s;
 }
 
 .iconos-contacto i:hover {
     color: #e4333a;
     cursor: pointer;
+    font-size: 108px;
+    margin-bottom: 32px;
 }
 
 /* fondo transición*/
@@ -288,11 +383,39 @@ footer{
     margin-bottom: 100px;
 }
 .logo-voltaje-negro{
-    width: 400px;
+    width: 40%;
     height: auto;
     display: inline-block;
-    margin-left: -12px;
+    margin-left: -28px;
 }
+
+.contenedor-lista-contacto{
+    width: 100%; 
+    display: block;
+    margin: 120px auto 30px;
+}
+.lista-contacto{
+    display: inline-block;
+}
+.elemento-contacto{
+    display: inline-block;
+    font-family: 'Gotham Light';
+    font-size: 24px;
+    margin: 20px;
+    letter-spacing: 3px;
+}
+.elemento-contacto a{
+    text-decoration: none;
+    color: #000;
+}
+.elemento-contacto i{
+    font-size: 30px;
+    color: #e4333a;
+    margin-left: 25px;
+    margin-bottom: -10px;
+}
+
+
 
 .iconos-redes-contacto {
     display: inline-block;
@@ -300,18 +423,20 @@ footer{
     margin: auto;
 }
 .iconos-redes-contacto i{
-    font-size: 30px;
+    font-size: 50px;
+    padding: 10px;
     color: #434040;
-    margin: 20px 10px;
+    margin: 40px 10px;
     transition-property: color, font-size;
     transition-duration: 0.5s;
 
 }
 
 .iconos-redes-contacto i:hover{
-    font-size: 36px;
+    font-size: 60px;
     color: #e4333a;
     cursor: pointer;
+    
 }
 
 .texto-derechos-reservados{
