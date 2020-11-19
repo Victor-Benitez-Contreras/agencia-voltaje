@@ -16,7 +16,7 @@
 @import url('../fonts/GothamBookItalic.ttf');
 @import url('../fonts/GothamLight.ttf');
 @import url('../fonts/GothamLightItalic.ttf');
-@import url('../fonts/GothamMedium.ttf');
+
 @import url('../fonts/GothamMedium_1.ttf');
 @import url('../fonts/GothamMediumItalic.ttf');
 
@@ -38,7 +38,14 @@
 @font-face{
     font-family: 'Gotham Bold';
     src: url("../fonts/GothamBold.ttf");
-    font-weight: 500;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Gotham Medium';
+    src: url('../fonts/GothamMedium.ttf');
+    font-weight: 600;
     font-style: normal;
 }
 

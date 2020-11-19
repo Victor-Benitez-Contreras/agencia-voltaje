@@ -12,11 +12,22 @@
 
 .horizonte-procesos{
     width: 120px;
-    height: 8px;
-    border-radius: 4px;
+    height: 6px;
+    border-radius: 3px;
     background: #e4333a;
     display: block;
     margin: auto;
+}
+
+.horizonte-modal{
+    width: 120px;
+    height: 6px;
+    border-radius: 3px;
+    background: #e4333a;
+    display: block;
+    margin-left: 5%;
+    text-align: left;
+    margin-bottom: 5%;
 }
 
 
@@ -124,6 +135,11 @@ header{
     transition-duration: 0.7s;
 }
 
+.contenedor-servicio a{
+    text-decoration: none;
+    color: #000;
+}
+
 .contenedor-servicio:hover {
     box-shadow: 0px 0px 45px -7px #979797;
     cursor: pointer;
@@ -143,10 +159,128 @@ header{
     text-transform: uppercase;
     letter-spacing: 3px;
     padding-top: 20px;
-
+    text-decoration: none;
 }
 
 
+/* ventanas modales */
+#diseño-grafico:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+#imagen-corporativa:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+#diseño-web:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+#fotografia-productos:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+#ilustracion:target{
+    opacity:1;
+    pointer-events:auto;
+}
+#social-manager:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+
+.modal{
+    background-color: rgba(0,0,0,0.5);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 0.5s;
+  }
+  .modal-contenido{
+    background-color:#eee;
+    width: 80%;
+    height: 90%;
+    padding: 10px 0px;
+    margin: 2% auto;
+    text-align: left;
+    position: relative;
+
+}
+  
+.btn-cerrar-modal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    padding: 9px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.btn-cerrar-modal i{
+    font-size: 32px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin: center
+}
+.btn-cerrar-modal:hover{
+    background: #e4333a;
+    color: #ccc;
+    padding: 12px;
+}
+
+
+.titulo-modal{
+    font-size: 30px;
+    font-family: 'Gotham Medium';
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    padding-left: 5%;
+    margin-top: 3%
+}
+
+.grilla-modal-contenido{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.modal-contenido-left{
+    width: 80%;
+    text-align: left;
+    padding: 0% 10%;
+    font-family: 'Gotham Light';
+    font-size: 16px;
+}
+
+.modal-contenido-left p{
+    margin-top: 0;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.modal-contenido-left ul{
+    line-height: 24px;
+    letter-spacing: 2px;
+    font-family: 'Gotham Medium';
+}
+
+.modal-contenido-right{
+    width: 100%;
+
+}
+.modal-contenido-right img{
+    width: 100%;
+    height: 80%;
+
+}
 
 /* seccion portafolio */
 
@@ -383,10 +517,10 @@ footer{
     margin-bottom: 100px;
 }
 .logo-voltaje-negro{
-    width: 40%;
+    width: 32%;
     height: auto;
     display: inline-block;
-    margin-left: -28px;
+    margin-left: -23px;
 }
 
 .contenedor-lista-contacto{
@@ -414,8 +548,6 @@ footer{
     margin-left: 25px;
     margin-bottom: -10px;
 }
-
-
 
 .iconos-redes-contacto {
     display: inline-block;
@@ -445,3 +577,7 @@ footer{
     color: #434040;
     letter-spacing: 4px;
 }
+
+
+/* ---- Responsive breakpoints ---- */
+/* -------Media querys------- */
