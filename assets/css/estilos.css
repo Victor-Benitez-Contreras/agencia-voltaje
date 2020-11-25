@@ -236,6 +236,42 @@ header{
     padding: 12px;
 }
 
+.iconos-navegacion-modal{
+    position: absolute;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background: #e4333a;
+    z-index: 2;
+    padding: 18px;
+    text-align: center;
+    opacity: 0.6;
+    top: 47%;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.iconos-navegacion-modal:hover{
+    padding: 22px;
+    text-align: center;
+    opacity: 1; 
+    top: 46.7%
+}
+
+.icono-avanzar{  
+    right: -5%; 
+}
+
+.icono-retroceder{
+    left: -5%;
+}
+
+.iconos-navegacion-modal i{
+    font-size: 28px;
+    color: #fff;
+}
+
+
 
 .titulo-modal{
     font-size: 30px;
