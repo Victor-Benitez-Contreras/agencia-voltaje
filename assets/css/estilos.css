@@ -255,7 +255,8 @@ header{
     padding: 22px;
     text-align: center;
     opacity: 1; 
-    top: 46.7%
+    top: 46.7%;
+
 }
 
 .icono-avanzar{  
@@ -368,7 +369,53 @@ header{
     grid-template-columns: repeat(3,1fr);
     grid-gap: 25px;
     margin: auto;  
+
 }
+
+.contenedor-img-portafolio{
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+
+.contenedor-img-portafolio:hover{
+    box-shadow: 0px 0px 20px -4px #666;
+}
+
+.contenedor-img-portafolio figure{
+    margin:0;
+    overflow: hidden;
+    position: relative;
+}
+
+.contenedor-hover-portafolio{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedor-hover-portafolio h4{
+    position: relative;
+    top: 40%;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Gotham Bold';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.contenedor-img-portafolio figure:hover > .contenedor-hover-portafolio{
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+}
+
+
 
 .imagen-portafolio{
     width: 100%;
@@ -505,7 +552,7 @@ header{
 .iconos-contacto{
     text-align: center;
     width: 100%;
-    height: auto;
+    height: 120px;
     margin: 100px auto 50px;
 }
 
@@ -577,7 +624,15 @@ footer{
 .elemento-contacto a{
     text-decoration: none;
     color: #000;
+    transition-property: all;
+    transition-duration: 0.5s;
 }
+
+.elemento-contacto a:hover{
+    color: #e4333a;
+}
+
+
 .elemento-contacto i{
     font-size: 30px;
     color: #e4333a;
