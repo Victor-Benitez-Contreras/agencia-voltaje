@@ -378,7 +378,7 @@ header{
 }
 
 .contenedor-img-portafolio:hover{
-    box-shadow: 0px 0px 20px -4px #666;
+    box-shadow: 0px 0px 20px -4px #333;
 }
 
 .contenedor-img-portafolio figure{
@@ -387,8 +387,13 @@ header{
     position: relative;
 }
 
+.imagen-portafolio{
+    width: 100%;
+    transition: all 0.4s ease-out;
+}
+
 .contenedor-hover-portafolio{
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.8);
     position: absolute;
     top: 0;
     width: 100%;
@@ -401,13 +406,28 @@ header{
 
 .contenedor-hover-portafolio h4{
     position: relative;
-    top: 40%;
+    top: 36%;
     color: #fff;
     font-size: 24px;
     font-family: 'Gotham Bold';
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 8px;
+    transition: all 0.45s ease-out;
 }
+
+.horizonte-portafolio-img{
+    position: relative;
+    top: 32%;
+    text-align: center;
+    margin: auto;
+    height: 4px;
+    border-radius: 2px;
+    width: 0px;
+    background-color: #e4333a;
+    transition: all 0.45s ease-out;
+}
+
+
 
 .contenedor-img-portafolio figure:hover > .contenedor-hover-portafolio{
     opacity: 1;
@@ -415,11 +435,19 @@ header{
     cursor: pointer;
 }
 
-
-
-.imagen-portafolio{
-    width: 100%;
+.contenedor-img-portafolio figure:hover > .imagen-portafolio{
+    transform: scale(1.15);
 }
+
+.contenedor-img-portafolio figure:hover > .contenedor-hover-portafolio h4{
+    letter-spacing: 3.5px;
+}
+
+.contenedor-img-portafolio figure:hover > .contenedor-hover-portafolio .horizonte-portafolio-img{
+    width: 140px;
+}
+
+
 
 
 /* seccion nuestro proceso */
