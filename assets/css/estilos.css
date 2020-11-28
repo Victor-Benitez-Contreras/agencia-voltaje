@@ -1,6 +1,5 @@
 
 
-
 /* clases comunes */
 
 .contenedor{
@@ -11,6 +10,24 @@
 }
 
 .horizonte-procesos{
+    width: 120px;
+    height: 6px;
+    border-radius: 3px;
+    background: #e4333a;
+    display: block;
+    margin: auto;
+}
+
+.horizonte-procesos-01{
+    width: 120px;
+    height: 6px;
+    border-radius: 3px;
+    background: #e4333a;
+    display: block;
+    margin: auto;
+}
+
+.horizonte-procesos-02{
     width: 120px;
     height: 6px;
     border-radius: 3px;
