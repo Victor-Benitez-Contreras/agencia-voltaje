@@ -9,7 +9,10 @@
     margin: auto;
 }
 
-.horizonte-procesos{
+.horizonte-procesos-01,
+.horizonte-procesos-02,
+.horizonte-procesos-03,
+.horizonte-procesos-04{
     width: 120px;
     height: 6px;
     border-radius: 3px;
@@ -18,23 +21,6 @@
     margin: auto;
 }
 
-.horizonte-procesos-01{
-    width: 120px;
-    height: 6px;
-    border-radius: 3px;
-    background: #e4333a;
-    display: block;
-    margin: auto;
-}
-
-.horizonte-procesos-02{
-    width: 120px;
-    height: 6px;
-    border-radius: 3px;
-    background: #e4333a;
-    display: block;
-    margin: auto;
-}
 
 .horizonte-modal{
     width: 120px;
@@ -131,7 +117,7 @@ header{
 
 .titulo-lo-que-hacemos{
     font-family: 'Gotham Bold';
-    font-size: 36px;
+    font-size: 32px;
     letter-spacing: 12px;
     text-transform: uppercase;
 }
@@ -340,7 +326,7 @@ header{
 
 .portafolio-titulo{
     font-family: 'Gotham Bold';
-    font-size: 36px;
+    font-size: 32px;
     letter-spacing: 12px;
     text-transform: uppercase;
     padding-left: 12px;
@@ -493,7 +479,7 @@ header{
 
 .proceso-titulo{
     font-family: 'Gotham Bold';
-    font-size: 36px;
+    font-size: 32px;
     letter-spacing: 12px;
     text-transform: uppercase;
 }
@@ -501,12 +487,12 @@ header{
 
 
 .proceso-parrafo{
-    font-size: 30px;
+    font-size: 25px;
     display: block;
     margin: 70px auto 150px;
     width: 70%;
-    line-height: 44px;
-    letter-spacing: 3px;
+    line-height: 40px;
+    letter-spacing: 2px;
 
 }
 
@@ -582,7 +568,7 @@ header{
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 5px;
-    font-size: 36px;
+    font-size: 32px;
     font-family: 'Gotham Bold';
     margin-top: 380px;
 }
@@ -718,3 +704,129 @@ footer{
 
 /* ---- Responsive breakpoints ---- */
 /* -------Media querys------- */
+
+
+@media (max-width: 1200px){
+
+    /* clases comunes */
+    .contenedor{
+        max-width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+
+    /* titulos */
+    .titulo-lo-que-hacemos{
+        font-size: 28px;
+    }
+    .portafolio-titulo{
+        font-size: 28px;
+    }
+    .proceso-titulo{
+        font-size: 28px;
+    }
+    .tienes-una-idea{
+        font-size: 28px;
+    }
+    .conversemos {
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 0px 0px 10px;
+        letter-spacing: 4px;
+        margin: 0rem auto 0.5rem;
+    }
+
+    /* que es voltaje */
+
+    .texto-que-es-voltaje {
+        width: 90%;
+        display: block;
+        margin: auto;
+        color: #fff;
+        font-family: 'Gotham Light', sans-serif;
+    }
+
+    /* lo que hacemos */
+
+    .lo-que-hacemos-servicios{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+        margin-top: 100px;
+        margin-bottom: 120px;
+    }
+
+    /* portafolio */
+    .lista-portafolio-item {
+        font-family: 'Gotham Book';
+        box-sizing: border-box;
+        display: inline-block;
+        margin: 4px 18px;
+        font-size: 18px;
+        padding: 10px 0px 10px 3px;
+        letter-spacing: 3.5px;
+        transition-property: all;
+        transition-duration: 0.5s;
+        border-bottom: 4px solid transparent;
+    }
+
+
+    /* nuestro proceso */
+    .proceso-parrafo {
+        font-size: 22px;
+        display: block;
+        margin: 50px auto 100px;
+        width: 80%;
+        line-height: 27px;
+        letter-spacing: 2px;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+    .contenedor{
+        width: 90%;
+        text-align: center;
+        margin: auto 1rem;
+    }
+    
+
+    /* que es voltaje */
+    .titulo-que-es-voltaje {
+        text-transform: uppercase;
+        display: block;
+        margin: 20px auto;
+        font-size: 42px;
+        width: 45%;
+        letter-spacing: 8px;
+        text-align: center;
+        line-height: 45px;
+    }
+    .parrafo-que-es-voltaje {
+        display: block;
+        font-size: 17px;
+        margin: auto;
+        width: 50%;
+        text-align: justify;
+        padding-top: 10px;
+        margin-top: 20px;
+    }
+
+}
+
+
+@media (max-width: 400px){
+    
+    .lo-que-hacemos-servicios{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin-top: 100px;
+        margin-bottom: 120px;
+    }
+    
+}

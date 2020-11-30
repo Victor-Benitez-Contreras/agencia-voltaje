@@ -1,4 +1,28 @@
 
+
+//que es voltaje seccion
+
+
+gsap.from('.titulo-que-es-voltaje', {
+  scrollTrigger: '.titulo-que-es-voltaje',
+  delay: 0.4, 
+  opacity:0, 
+  duration: 1.5, 
+  x: -40, ease: 'Power4.easeOut'
+});
+
+gsap.from('.parrafo-que-es-voltaje', {
+  scrollTrigger: '.parrafo-que-es-voltaje',
+  delay: 0.6, 
+  opacity:0, 
+  duration: 1.5, 
+  x: 40, ease: 'Power4.easeOut'
+});
+
+
+
+//lo que hacemos seccion
+
 gsap.from('.titulo-lo-que-hacemos', {
     scrollTrigger: '.titulo-lo-que-hacemos',
     delay: 0.2, 
@@ -17,18 +41,18 @@ gsap.from('.titulo-lo-que-hacemos', {
   });
 
 
-/*   gsap.from('.titulo-lo-que-hacemos', {
-    scrollTrigger: '.titulo-lo-que-hacemos',
-    delay: 0.2, 
+  // animaciones lo que ehacemos//
+
+
+    gsap.from('#lo-que-hacemos', {
+    scrollTrigger: '.lo-que-hacemos-servicios',
+    delay: 0.5, 
     opacity:0, 
     duration: 1.5, 
     y: 20, ease: 'Power4.easeOut'
-  }); */
-
-
-  // animaciones lo que ehacemos//
-
-  gsap.from('.diseño-grafico', {
+  });
+  
+ /*  gsap.from('.diseño-grafico', {
     scrollTrigger: '.diseño-grafico',
     delay: 0.4, 
     opacity:0, 
@@ -74,7 +98,7 @@ gsap.from('.titulo-lo-que-hacemos', {
     opacity:0, 
     duration: 1.5, 
     y: 20, ease: 'Power4.easeOut'
-  });
+  }); */
 
 
   //portafolio
@@ -148,3 +172,22 @@ gsap.from('.titulo-lo-que-hacemos', {
 
   //nuestro proceso
 
+  gsap.from('.horizonte-procesos-03', {
+    scrollTrigger: '.proceso-parrafo',
+    width: 0,
+    delay: 0.3, 
+    opacity:0, 
+    duration: 2.5, 
+    x: -35, ease: 'Power4.easeOut'
+  });
+
+  //contacto
+
+  gsap.from('.horizonte-procesos-04', {
+    scrollTrigger: '.conversemos',
+    width: 0,
+    delay: 0.3, 
+    opacity:0, 
+    duration: 2.5, 
+    x: -35, ease: 'Power4.easeOut'
+  });
