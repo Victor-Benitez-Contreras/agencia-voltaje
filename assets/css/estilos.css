@@ -830,6 +830,24 @@ footer{
 
 @media (max-width: 400px){
     
+    /* titulos */
+    .titulo-lo-que-hacemos{
+        font-size: 24px;
+        letter-spacing: 5px;
+    }
+    .portafolio-titulo{
+        font-size: 24px;
+        letter-spacing: 5px;
+    }
+    .proceso-titulo{
+        font-size: 24px;
+        letter-spacing: 5px;
+    }
+    .tienes-una-idea{
+        font-size: 24px;
+        letter-spacing: 5px;
+    }
+
     .lo-que-hacemos-servicios{
         width: 100%;
         display: grid;
@@ -930,16 +948,59 @@ footer{
         box-sizing: border-box;
     }
 
+    /* nuestro proceso */
+    .nuestro-proceso-explicado {
+        margin: 40px 0px 30px;
+    }
+    .proceso-parrafo {
+        font-size: 18px;
+        display: block;
+        margin: 50px auto 0px;
+        width: 80%;
+        line-height: 22px;
+        letter-spacing: 2px;
+    }
+    .proceso-etapas {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .proceso-etapa-contenedor {
+        height: 400px!important;
+        color: #fff;
+    }
+    .proceso-estrategia {
+        margin-top: -110px;
+    }
+    .proceso-desarrollo {
+        margin-top: -110px;
+        margin-bottom: 180px;
+    }
 
+    .proceso-etapa-titulo {
+        font-size: 25px;
+        font-family: 'Gotham Bold';
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    .texto-etapa {
+        font-family: 'Gotham Light';
+        font-size: 22px;
+        width: 73%;
+        display: block;
+        margin: 15px auto;
+        text-align: left;
+        letter-spacing: 1px;
+    }
 
     /*conversemos */
     .tienes-una-idea {
         text-transform: uppercase;
         font-weight: 800;
         letter-spacing: 5px;
-        font-size: 24px !important;
         font-family: 'Gotham Bold';
         margin-top: 80px;
+        margin-left: 10px;
     }
     .iconos-contacto {
         text-align: center;
@@ -957,7 +1018,7 @@ footer{
     /* footer */
 
     .contenedor-logo{
-        margin-top: 40px;
+        margin-top: 80px;
     }
     .logo-voltaje-negro {
         width: 40%;
