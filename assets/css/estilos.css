@@ -988,11 +988,11 @@ footer{
 
     .fondo-terminacion {
         display: block;
-        width: 120%;
+        width: 100%;
         height: auto;
         margin-bottom: -90px;
         text-align: center;
-        margin-left: -10%;
+        margin-left: 0;
     }
     
     #que-es-voltaje {
