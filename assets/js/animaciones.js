@@ -218,7 +218,7 @@ gsap.from('.titulo-lo-que-hacemos', {
     y: 20, ease: 'Power4.easeOut'
   });
 
-  gsap.from('.fa-envelope', {
+  gsap.from('.icono-1', {
     scrollTrigger: '.iconos-contacto',
     delay: 0.8, 
     opacity:0, 
@@ -240,8 +240,6 @@ gsap.from('.titulo-lo-que-hacemos', {
     y: 20, ease: 'Power4.easeOut'
   });
 
-
-  
   gsap.from('.horizonte-procesos-04', {
     scrollTrigger: '.conversemos',
     width: 0,
@@ -249,4 +247,77 @@ gsap.from('.titulo-lo-que-hacemos', {
     opacity:0, 
     duration: 2.5, 
     x: -35, ease: 'Power4.easeOut'
+  });
+
+
+  //footer
+
+  gsap.from('.logo-voltaje-negro', {
+    scrollTrigger: '.contenedor-lista-contacto',
+    delay: 0.2, 
+    opacity:0, 
+    duration: 2, 
+    y: -25, ease: 'Power4.easeOut'
+  });
+
+
+  gsap.from('.elemento-contacto:first-child', {
+    scrollTrigger: '.contenedor-lista-contacto',
+    delay: 0.5, 
+    opacity:0, 
+    duration: 2, 
+    x: -25, ease: 'Power4.easeOut'
+  });
+  gsap.from('.elemento-contacto:nth-child(2)', {
+    scrollTrigger: '.contenedor-lista-contacto',
+    delay: 0.7, 
+    opacity:0, 
+    duration: 2, 
+    x: 25, ease: 'Power4.easeOut'
+  });
+  gsap.from('.elemento-contacto:last-child', {
+    scrollTrigger: '.contenedor-lista-contacto',
+    delay: 0.9, 
+    opacity:0, 
+    duration: 2, 
+    x: -25, ease: 'Power4.easeOut'
+  });
+
+
+
+  gsap.from('.fa-facebook-f', {
+    scrollTrigger: '.iconos-redes-contacto',
+    delay: 0.2, 
+    opacity:0, 
+    duration: 2, 
+    y: 20, ease: 'Power4.easeOut'
+  });
+  gsap.from('.fa-linkedin-in', {
+    scrollTrigger: '.iconos-redes-contacto',
+    delay: 0.4, 
+    opacity:0, 
+    duration: 2, 
+    y: 20, ease: 'Power4.easeOut'
+  });
+  gsap.from('.fa-instagram', {
+    scrollTrigger: '.iconos-redes-contacto',
+    delay: 0.8, 
+    opacity:0, 
+    duration: 2, 
+    y: 20, ease: 'Power4.easeOut'
+  });
+  gsap.from('.fa-behance', {
+    scrollTrigger: '.iconos-redes-contacto',
+    delay: 1, 
+    opacity:0, 
+    duration: 2, 
+    y: 20, ease: 'Power4.easeOut'
+  });
+
+  gsap.from('.texto-derechos-reservados', {
+    scrollTrigger: '.iconos-redes-contacto',
+    delay: 1.2, 
+    opacity:0, 
+    duration: 2, 
+    y: -20, ease: 'Power4.easeOut'
   });
