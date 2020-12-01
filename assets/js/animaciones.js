@@ -172,17 +172,76 @@ gsap.from('.titulo-lo-que-hacemos', {
 
   //nuestro proceso
 
+  gsap.from('.proceso-titulo', {
+    scrollTrigger: '.proceso-etapas',
+    delay: 0.2, 
+    opacity:0, 
+    duration: 2, 
+    y: -35, ease: 'Power4.easeOut'
+  });
+
   gsap.from('.horizonte-procesos-03', {
     scrollTrigger: '.proceso-parrafo',
     width: 0,
     delay: 0.3, 
     opacity:0, 
     duration: 2.5, 
-    x: -35, ease: 'Power4.easeOut'
+    x: -65, ease: 'Power4.easeOut'
   });
+
+  gsap.from('.proceso-parrafo', {
+    scrollTrigger: '.proceso-etapas',
+    delay: 0.2, 
+    opacity:0, 
+    duration: 2, 
+    y: 35, ease: 'Power4.easeOut'
+  });
+
+
+
 
   //contacto
 
+  gsap.from('.tienes-una-idea', {
+    scrollTrigger: '.iconos-contacto',
+    delay: 0.2, 
+    opacity:0, 
+    duration: 2, 
+    y: -25, ease: 'Power4.easeOut'
+  });
+
+  gsap.from('.conversemos', {
+    scrollTrigger: '.iconos-contacto',
+    delay: 0.5, 
+    opacity:0, 
+    duration: 2, 
+    y: 20, ease: 'Power4.easeOut'
+  });
+
+  gsap.from('.fa-envelope', {
+    scrollTrigger: '.iconos-contacto',
+    delay: 0.8, 
+    opacity:0, 
+    duration: 2, 
+    y: 20, ease: 'Power4.easeOut'
+  });
+  gsap.from('.fa-whatsapp', {
+    scrollTrigger: '.iconos-contacto',
+    delay: 1, 
+    opacity:0, 
+    duration: 2, 
+    y: 20, ease: 'Power4.easeOut'
+  });
+  gsap.from('.fa-facebook-messenger', {
+    scrollTrigger: '.iconos-contacto',
+    delay: 1.2, 
+    opacity:0, 
+    duration: 2, 
+    y: 20, ease: 'Power4.easeOut'
+  });
+
+
+  
   gsap.from('.horizonte-procesos-04', {
     scrollTrigger: '.conversemos',
     width: 0,

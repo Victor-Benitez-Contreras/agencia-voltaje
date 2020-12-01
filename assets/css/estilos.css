@@ -820,7 +820,7 @@ footer{
         font-size: 17px;
         margin: auto;
         width: 60%;
-        text-align: justify;
+        text-align: left;
         padding-top: 10px;
         margin-top: 20px;
     }
@@ -870,6 +870,7 @@ footer{
         height: auto;
         background: #000;
         margin-bottom: -20px;
+        margin-top: -20px;
     }
 
     .iconos-contacto {
@@ -1105,6 +1106,21 @@ footer{
         margin: auto;
     }
 
+    .contenedor-hover-portafolio h4{
+        top: 33%;
+        font-size: 20px;
+        letter-spacing: 8px;
+    }
+
+    .horizonte-portafolio-img{
+        position: relative;
+        top: 27%;
+        text-align: center;
+        margin: auto;
+        height: 4px;
+        border-radius: 2px;
+        width: 0px;
+    }
 
     /* nuestro proceso */
     .nuestro-proceso-explicado {
@@ -1132,7 +1148,7 @@ footer{
     }
     .proceso-desarrollo {
         margin-top: -110px;
-        margin-bottom: 180px;
+        margin-bottom: 170px;
     }
 
     .proceso-etapa-titulo {
