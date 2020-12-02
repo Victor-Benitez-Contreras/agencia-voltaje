@@ -125,7 +125,7 @@ gsap.from('.titulo-lo-que-hacemos', {
     scrollTrigger: '.contenedor-portafolio-img',
     delay: 0.2, 
     opacity:0, 
-    duration: 2, 
+    duration: 1.5, 
     y: 18, ease: 'Power4.easeOut'
   });
 
@@ -133,7 +133,7 @@ gsap.from('.titulo-lo-que-hacemos', {
     scrollTrigger: '.contenedor-portafolio-img',
     delay: 0.4, 
     opacity:0, 
-    duration: 2, 
+    duration: 1.5, 
     y: 18, ease: 'Power4.easeOut'
   });
   
@@ -141,7 +141,7 @@ gsap.from('.titulo-lo-que-hacemos', {
     scrollTrigger: '.contenedor-portafolio-img',
     delay: 0.6, 
     opacity:0, 
-    duration: 2, 
+    duration: 1.5, 
     y: 18, ease: 'Power4.easeOut'
   });
 
@@ -149,7 +149,7 @@ gsap.from('.titulo-lo-que-hacemos', {
     scrollTrigger: '.contenedor-portafolio-img',
     delay: 0.8, 
     opacity:0, 
-    duration: 2, 
+    duration: 1.5, 
     y: 18, ease: 'Power4.easeOut'
   });
 
@@ -157,7 +157,7 @@ gsap.from('.titulo-lo-que-hacemos', {
     scrollTrigger: '.contenedor-portafolio-img',
     delay: 1, 
     opacity:0, 
-    duration: 2, 
+    duration: 1.5,
     y: 18, ease: 'Power4.easeOut'
   });
 
@@ -165,9 +165,76 @@ gsap.from('.titulo-lo-que-hacemos', {
     scrollTrigger: '.contenedor-portafolio-img',
     delay: 1.2, 
     opacity:0, 
-    duration: 2, 
+    duration: 1.5, 
     y: 18, ease: 'Power4.easeOut'
   });
+
+  //imagenes portafolio
+  gsap.from('.contenedor-img-portafolio:first-child', {
+    scrollTrigger: '.contenedor-portafolio-img',
+    delay: 1.2, 
+    opacity:0, 
+    duration: 1.5, 
+    y: 18, ease: 'Power4.easeOut'
+  });
+  gsap.from('.contenedor-img-portafolio:nth-child(2)', {
+    scrollTrigger: '.contenedor-portafolio-img',
+    delay: 1.4, 
+    opacity:0, 
+    duration: 1.5, 
+    y: 18, ease: 'Power4.easeOut'
+  });
+  gsap.from('.contenedor-img-portafolio:nth-child(3)', {
+    scrollTrigger: '.contenedor-portafolio-img',
+    delay: 1.6, 
+    opacity:0, 
+    duration: 1.5, 
+    y: 18, ease: 'Power4.easeOut'
+  });
+  gsap.from('.contenedor-img-portafolio:nth-child(4)', {
+    scrollTrigger: '.contenedor-portafolio-img',
+    delay: 1.8, 
+    opacity:0, 
+    duration: 1.5, 
+    y: 18, ease: 'Power4.easeOut'
+  });
+  gsap.from('.contenedor-img-portafolio:nth-child(5)', {
+    scrollTrigger: '.contenedor-portafolio-img',
+    delay: 2, 
+    opacity:0, 
+    duration: 1.5, 
+    y: 18, ease: 'Power4.easeOut'
+  });
+  gsap.from('.contenedor-img-portafolio:nth-child(6)', {
+    scrollTrigger: '.contenedor-portafolio-img',
+    delay: 2.2, 
+    opacity:0, 
+    duration: 1.5, 
+    y: 18, ease: 'Power4.easeOut'
+  });
+  gsap.from('.contenedor-img-portafolio:nth-child(7)', {
+    scrollTrigger: '.contenedor-portafolio-img',
+    delay: 2.4, 
+    opacity:0, 
+    duration: 1.5, 
+    y: 18, ease: 'Power4.easeOut'
+  });
+  gsap.from('.contenedor-img-portafolio:nth-child(8)', {
+    scrollTrigger: '.contenedor-portafolio-img',
+    delay: 2.6, 
+    opacity:0, 
+    duration: 1.5, 
+    y: 18, ease: 'Power4.easeOut'
+  });
+  gsap.from('.contenedor-img-portafolio:last-child', {
+    scrollTrigger: '.contenedor-portafolio-img',
+    delay: 2.8, 
+    opacity:0, 
+    duration: 1.5, 
+    y: 18, ease: 'Power4.easeOut'
+  });
+
+
 
 
   //nuestro proceso
@@ -197,7 +264,51 @@ gsap.from('.titulo-lo-que-hacemos', {
     y: 35, ease: 'Power4.easeOut'
   });
 
+//titlos
+  gsap.from('.titulo-01', {
+    scrollTrigger: '.proceso-etapas',
+    delay: 0, 
+    opacity:0, 
+    duration: 2, 
+    y: 35, ease: 'Power4.easeOut'
+  });
+  gsap.from('.titulo-02', {
+    scrollTrigger: '.proceso-etapas',
+    delay: 0.3, 
+    opacity:0, 
+    duration: 2, 
+    y: 35, ease: 'Power4.easeOut'
+  });
+  gsap.from('.titulo-03', {
+    scrollTrigger: '.proceso-etapas',
+    delay: 0.6, 
+    opacity:0, 
+    duration: 2, 
+    y: 35, ease: 'Power4.easeOut'
+  });
 
+  //parrafo
+  gsap.from('.parrafo-01', {
+    scrollTrigger: '.proceso-etapas',
+    delay: 0.7, 
+    opacity:0, 
+    duration: 2, 
+    x: 35, ease: 'Power4.easeOut'
+  });
+  gsap.from('.parrafo-02', {
+    scrollTrigger: '.proceso-etapas',
+    delay: 0.9, 
+    opacity:0, 
+    duration: 2, 
+    x: 35, ease: 'Power4.easeOut'
+  });
+  gsap.from('.parrafo-03', {
+    scrollTrigger: '.proceso-etapas',
+    delay:1.1, 
+    opacity:0, 
+    duration: 2, 
+    x: 35, ease: 'Power4.easeOut'
+  });
 
 
   //contacto
@@ -286,38 +397,38 @@ gsap.from('.titulo-lo-que-hacemos', {
 
 
   gsap.from('.fa-facebook-f', {
-    scrollTrigger: '.iconos-redes-contacto',
+    scrollTrigger: '.texto-derechos-reservados',
     delay: 0.2, 
     opacity:0, 
     duration: 2, 
-    y: 20, ease: 'Power4.easeOut'
+    y: 17, ease: 'Power4.easeOut'
   });
   gsap.from('.fa-linkedin-in', {
-    scrollTrigger: '.iconos-redes-contacto',
+    scrollTrigger: '.texto-derechos-reservados',
     delay: 0.4, 
     opacity:0, 
     duration: 2, 
-    y: 20, ease: 'Power4.easeOut'
+    y: 17, ease: 'Power4.easeOut'
   });
   gsap.from('.fa-instagram', {
-    scrollTrigger: '.iconos-redes-contacto',
+    scrollTrigger: '.texto-derechos-reservados',
     delay: 0.8, 
     opacity:0, 
     duration: 2, 
-    y: 20, ease: 'Power4.easeOut'
+    y: 17, ease: 'Power4.easeOut'
   });
   gsap.from('.fa-behance', {
-    scrollTrigger: '.iconos-redes-contacto',
+    scrollTrigger: '.texto-derechos-reservados',
     delay: 1, 
     opacity:0, 
     duration: 2, 
-    y: 20, ease: 'Power4.easeOut'
+    y: 17, ease: 'Power4.easeOut'
   });
 
   gsap.from('.texto-derechos-reservados', {
-    scrollTrigger: '.iconos-redes-contacto',
+    scrollTrigger: '.texto-derechos-reservados',
     delay: 1.2, 
     opacity:0, 
     duration: 2, 
-    y: -20, ease: 'Power4.easeOut'
+    y: -17, ease: 'Power4.easeOut'
   });
