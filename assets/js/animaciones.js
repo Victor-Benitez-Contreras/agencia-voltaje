@@ -412,14 +412,14 @@ gsap.from('.titulo-lo-que-hacemos', {
   });
   gsap.from('.fa-instagram', {
     scrollTrigger: '.texto-derechos-reservados',
-    delay: 0.8, 
+    delay: 0.6, 
     opacity:0, 
     duration: 2, 
     y: 17, ease: 'Power4.easeOut'
   });
   gsap.from('.fa-behance', {
     scrollTrigger: '.texto-derechos-reservados',
-    delay: 1, 
+    delay: 0.8, 
     opacity:0, 
     duration: 2, 
     y: 17, ease: 'Power4.easeOut'
