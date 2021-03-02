@@ -31,7 +31,7 @@ gsap.from('.titulo-lo-que-hacemos', {
     x: 35, ease: 'Power4.easeOut'
   });
 
-  gsap.from('.horizonte-procesos-01', {
+gsap.from('.horizonte-procesos-01', {
     scrollTrigger: '.lo-que-hacemos-servicios',
     width: 0,
     delay: 0.3, 
